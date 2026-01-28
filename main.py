@@ -1,7 +1,6 @@
+import imghdr
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import (
-    Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
-)
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
 import time
 
 # -------------------------- 必改3项 --------------------------
@@ -80,4 +79,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
