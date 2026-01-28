@@ -1,4 +1,4 @@
-# TG 匿名投稿机器人（可自己投稿+审核）
+import imghdr# TG 匿名投稿机器人（可自己投稿+审核）
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
 import time
@@ -79,3 +79,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
