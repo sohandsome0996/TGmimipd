@@ -1,12 +1,12 @@
-import imghdr# TG 匿名投稿机器人（可自己投稿+审核）
+import imghdr
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
 import time
 
 # -------------------------- 必改3项 --------------------------
-BOT_TOKEN = "8527067919:AAG8PzWMX7mEJDXpZODxnjdO4TGZlFgdcNk"  # @BotFather获取
+BOT_TOKEN = "你的投稿机器人Token"  # @BotFather获取
 ADMIN_ID = 7976084446             # 你的TG ID（@getidsbot获取）
-TARGET_CHANNEL_ID = "-1003647769908"  # 投稿目标频道ID（@getidsbot获取）
+TARGET_CHANNEL_ID = "-100xxxxxxx" # 投稿目标频道ID（@getidsbot获取）
 # ----------------------------------------------------------------
 
 # 启动命令
@@ -79,4 +79,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
