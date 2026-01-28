@@ -75,4 +75,13 @@ def main():
             time.sleep(5)
 
 if __name__ == "__main__":
+
     main()
+    # 之前的代码（命令、处理器等）
+@dp.message_handler(commands=['start'])
+async def start_cmd(message):
+    await message.answer('欢迎使用机器人！')
+
+# 机器人启动轮询，持续监听消息（核心行，必须有）
+if __name__ == '__main__':
+    dp.start_polling()
