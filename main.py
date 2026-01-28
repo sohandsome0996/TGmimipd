@@ -3,9 +3,9 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 import time
 
 # -------------------------- 必改3项 --------------------------
-BOT_TOKEN = "8527067919:AAG8PzWMX7mEJDXpZODxnjdO4TGZlFgdcNk"  # @BotFather获取
+BOT_TOKEN = "8527067919:AAG8PzWMX7mEJDXpZ0Dxnj04TGZ1FgdcNk"  # @BotFather获取
 ADMIN_ID = 7976084446             # 你的TG ID（@getidsbot获取）
-TARGET_CHANNEL_ID = "-1003647769908" # 投稿目标频道ID（@getidsbot获取）
+TARGET_CHANNEL_ID = "-1003647769908"  # 投稿目标频道ID（@getidsbot获取）
 # ----------------------------------------------------------------
 
 # 启动命令
@@ -78,3 +78,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
