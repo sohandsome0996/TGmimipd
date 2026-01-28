@@ -2,11 +2,11 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
 import time
 
-# -------------------------- 直接用，不用改（已填你的信息） --------------------------
+# -------------------------- 必改3项（已填你的信息） --------------------------
 BOT_TOKEN = "8527067919:AAG8PzWMX7mEJDXpZ0Dxnj04TGZ1FgdcNk"
 ADMIN_ID = 7976084446
 TARGET_CHANNEL_ID = "-1003647769908"
-# -----------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 # 启动命令
 def start(update: Update, context: CallbackContext):
